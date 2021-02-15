@@ -24,8 +24,9 @@ def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
 
-@app.route('/profile/<username>')
-def profile(username):
+@app.route('/profile/')
+def profile():
+    """Render the user's profile page."""
     return render_template('profile.html')
 
 
