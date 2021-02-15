@@ -26,7 +26,7 @@ def about():
 
 @app.route('/profile/<username>')
 def profile(username):
-    #return render_template('')
+    return render_template('profile.html')
 
 
 ###
