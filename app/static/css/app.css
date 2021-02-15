@@ -1,10 +1,71 @@
 body {
     padding-top: 5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
-
-.card-body{
+/*
+.container{
     display: grid;
-    border-radius: 50%;
-    border: silver 1px;
+    padding: 20px;
+}*/
+.card-body{
+    border: black 10px;
+    border-radius: 5px;
+    margin: 300px;
+    padding: 20px;
+    display: grid;
+}
+
+.profile-header{
+    background-color: rgb(38, 138, 38);
+    color:honeydew;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#profile-photo{
+    border-radius: 50% ;
+    height: 150px;
+    width: 150px;
+}
+
+.profile-header > h4 {
+    font-size: 14px;
+}
+
+.button{
+    background-color: green;
+    
+    border-radius: 5px;
+    border-style: outset;
+}
+
+.profile-desc{
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    display: grid;
 
 }
+.ul-container {
+    list-style: none;
+    flex-direction: row;
+    display: inline-flex;
+    float: left;
+}
+.ul-container > li{
+
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .1s;
+    text-decoration: none;
+}
+

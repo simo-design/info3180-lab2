@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 
+{% block css %} {% endblock%}
+
 {% block main %}
 <div class="card-body">
     <div class="profile-header">
-        <img src="{{ url_for('static', filename='images/simo-design-logo.png') }}" alt="profile-photo">
+        <img src="{{ url_for('static', filename='images/simo-design-logo.png') }}" alt="profile-photo" id= "profile-photo">
         <h3>Mary Jane</h3>
         <h4>
             @mjane <br>
